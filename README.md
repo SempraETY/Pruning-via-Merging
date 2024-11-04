@@ -15,17 +15,20 @@ The pipeline involves:
 
 ## Table of Contents
 
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Data Format](#data-format)
-- [Usage](#usage)
-- [Process Workflow](#process-workflow)
-- [Outputs](#outputs)
-- [Logging](#logging)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Pruning-via-Merging-Compressing-LLMs-via-Manifold-Alignment-Based-Layer-Merging](#pruning-via-merging-compressing-llms-via-manifold-alignment-based-layer-merging)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Data Format](#data-format)
+    - [Directory Structure:](#directory-structure)
+    - [CSV File Format:](#csv-file-format)
+  - [Usage](#usage)
+    - [Command-Line Arguments:](#command-line-arguments)
+    - [Example Command:](#example-command)
+  - [Process Workflow](#process-workflow)
+  - [Outputs](#outputs)
 
 ## Features
 
@@ -179,4 +182,7 @@ EMNLP2024/
                     └── merged_weights/
                         ├── config.json
                         └── pytorch_model.bin
+
+
+                        
 ```
